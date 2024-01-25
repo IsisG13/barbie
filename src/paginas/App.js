@@ -1,12 +1,13 @@
 import "../App.css";
-import Video from "./imagem/BRBIE2023.mp4"
+import Cabecalho from "./cabecalho";
+// import Video from "./imagem/BRBIE2023.mp4"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h4>Studio barbie</h4>
-      </header>
+      {/* <header className="App-header"> */}
+        <Cabecalho />
+      {/* </header> */}
 
       <div className="App-banner"></div>
 
@@ -29,7 +30,6 @@ function App() {
             <a>
               <button className="botao2">Assistir ao trailer</button>
             </a>
-
           </div>
         </div>
       </main>

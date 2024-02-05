@@ -194,10 +194,18 @@ h1 {
   margin-left: -8%;
 }
 
-.trailer-video video {
-  margin-top: -54%;
-  margin-left: -1%;
+.trailer-video, .filme-trailer video {
+  margin-top: -61%;
+  margin-left: -13%;
   width: 150%;
   position: relative;
   z-index: 10;
+}
+
+.filme-video video {
+  margin-top: -55%;
+  margin-left: -13%;
+  width: 150%;
+  position: relative;
+  z-index: 99;
 }

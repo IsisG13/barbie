@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import Cabecalho from "./cabecalho";
 import { useState } from "react";
-import Trailer from "./imagem/trailer.mp4"
-// import Video from "./imagem/BRBIE2023.mp4"
+import Trailer from "./imagem/trailer.mp4";
 
 function App() {
   const [trailerVisible, setTrailerVisible] = useState(false);
@@ -29,13 +28,14 @@ function App() {
             verdadeira felicidade.
           </p>
           <div className="botoes-conteudo">
-            <a>
+            <a href="https://redecanais.la/barbie-legendado-2023-1080p_6d269c894.html" type="video/mp4" target="_blank">
               <button className="botao1"> ▶ Assistir agora</button>
             </a>
             {"  "} {"  "}
             <button className="botao2" onClick={handleWatchTrailer}>
               Assistir ao trailer
             </button>
+
           </div>
           {trailerVisible && (
             <div className="trailer-video">
